@@ -1,6 +1,9 @@
-#hamburguesas
+# hamburguesas
 
-primero configurar pnpm 
-https://pnpm.io/installation
+## primero configurar pnpm 
+[Documentación](https://pnpm.io/installation)
 
-luego instlar las dependencias con el comando pnpm install
+luego instlar las dependencias con el comando
+```bash
+pnpm install
+```

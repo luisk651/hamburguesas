@@ -6,10 +6,6 @@ const { form, save } = appStore.game;
 const onSubmit = async () => {
   form.type = routes.query.type;
   await save();
-  form.name = "";
-  form.email = "";
-  form.cell = "";
-  form.type = {};
   alert("datos guardados");
   router.push("/");
 };
