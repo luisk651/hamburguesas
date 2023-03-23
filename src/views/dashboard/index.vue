@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import appStore from "~/store";
-const { basicData } = appStore.game;
+const { basicData, saveFirebase } = appStore.game;
 const onSubmit = async () => {
   alert("datos guardados");
 };
@@ -38,6 +38,9 @@ const onSubmit = async () => {
             Enviar
           </button>
         </form>
+        <button class="mt-4 mb-2 block w-full rounded-2xl bg-black py-2 font-semibold text-white" @click="saveFirebase">
+          Actualizar base de datos
+        </button>
       </section>
     </article>
   </div>

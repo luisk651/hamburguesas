@@ -31,6 +31,7 @@
     "@kirklin/reset-css": "^0.0.3",
     "@vueuse/core": "^9.13.0",
     "daisyui": "^2.51.3",
+    "firebase": "^9.18.0",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.33",
     "vue": "^3.2.47",
